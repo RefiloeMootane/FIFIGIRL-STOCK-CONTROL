@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -50,12 +51,66 @@ Partial Class Form1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.TextBox25)
+        Me.GroupBox1.Controls.Add(Me.TextBox21)
+        Me.GroupBox1.Controls.Add(Me.TextBox22)
+        Me.GroupBox1.Controls.Add(Me.TextBox23)
+        Me.GroupBox1.Controls.Add(Me.TextBox24)
+        Me.GroupBox1.Controls.Add(Me.TextBox16)
+        Me.GroupBox1.Controls.Add(Me.TextBox17)
+        Me.GroupBox1.Controls.Add(Me.TextBox18)
+        Me.GroupBox1.Controls.Add(Me.TextBox19)
+        Me.GroupBox1.Controls.Add(Me.TextBox20)
+        Me.GroupBox1.Controls.Add(Me.Label21)
+        Me.GroupBox1.Controls.Add(Me.Label16)
+        Me.GroupBox1.Controls.Add(Me.Label17)
+        Me.GroupBox1.Controls.Add(Me.Label18)
+        Me.GroupBox1.Controls.Add(Me.Label19)
+        Me.GroupBox1.Controls.Add(Me.Label20)
+        Me.GroupBox1.Controls.Add(Me.Label22)
+        Me.GroupBox1.Controls.Add(Me.Label23)
+        Me.GroupBox1.Controls.Add(Me.Label24)
+        Me.GroupBox1.Controls.Add(Me.Label25)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
         Me.GroupBox1.Controls.Add(Me.TextBox10)
         Me.GroupBox1.Controls.Add(Me.TextBox8)
@@ -79,10 +134,10 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1184, 383)
+        Me.GroupBox1.Size = New System.Drawing.Size(898, 383)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "v"
         '
         'GroupBox2
         '
@@ -197,35 +252,35 @@ Partial Class Form1
         '
         Me.TextBox1.Location = New System.Drawing.Point(138, 31)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(146, 23)
+        Me.TextBox1.Size = New System.Drawing.Size(215, 23)
         Me.TextBox1.TabIndex = 10
         '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(138, 66)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(316, 23)
+        Me.TextBox2.Size = New System.Drawing.Size(403, 23)
         Me.TextBox2.TabIndex = 11
         '
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(138, 103)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(316, 23)
+        Me.TextBox3.Size = New System.Drawing.Size(403, 23)
         Me.TextBox3.TabIndex = 12
         '
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(138, 169)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(146, 23)
+        Me.TextBox4.Size = New System.Drawing.Size(215, 23)
         Me.TextBox4.TabIndex = 14
         '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(138, 132)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(316, 23)
+        Me.TextBox5.Size = New System.Drawing.Size(403, 23)
         Me.TextBox5.TabIndex = 13
         '
         'TextBox6
@@ -265,6 +320,11 @@ Partial Class Form1
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.TextBox15)
+        Me.GroupBox3.Controls.Add(Me.TextBox14)
+        Me.GroupBox3.Controls.Add(Me.TextBox13)
+        Me.GroupBox3.Controls.Add(Me.TextBox12)
+        Me.GroupBox3.Controls.Add(Me.TextBox11)
         Me.GroupBox3.Controls.Add(Me.Label15)
         Me.GroupBox3.Controls.Add(Me.Label14)
         Me.GroupBox3.Controls.Add(Me.Label13)
@@ -327,11 +387,279 @@ Partial Class Form1
         Me.Label15.TabIndex = 4
         Me.Label15.Text = "Stock Take"
         '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(143, 19)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(132, 23)
+        Me.TextBox11.TabIndex = 5
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Location = New System.Drawing.Point(143, 55)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(132, 23)
+        Me.TextBox12.TabIndex = 6
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Location = New System.Drawing.Point(143, 84)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(132, 23)
+        Me.TextBox13.TabIndex = 7
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Location = New System.Drawing.Point(143, 116)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(132, 23)
+        Me.TextBox14.TabIndex = 8
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Location = New System.Drawing.Point(143, 146)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(132, 23)
+        Me.TextBox15.TabIndex = 9
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label16.Location = New System.Drawing.Point(617, 152)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(110, 21)
+        Me.Label16.TabIndex = 30
+        Me.Label16.Text = "Last Ord Date"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label17.Location = New System.Drawing.Point(613, 183)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(114, 21)
+        Me.Label17.TabIndex = 29
+        Me.Label17.Text = "Re-Order Date"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label18.Location = New System.Drawing.Point(615, 215)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(116, 21)
+        Me.Label18.TabIndex = 28
+        Me.Label18.Text = "Re-Order Level"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label19.Location = New System.Drawing.Point(615, 251)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(99, 21)
+        Me.Label19.TabIndex = 27
+        Me.Label19.Text = "Re-Oder Qty"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label20.Location = New System.Drawing.Point(615, 325)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(116, 21)
+        Me.Label20.TabIndex = 26
+        Me.Label20.Text = "Stock Take Qty"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label22.Location = New System.Drawing.Point(618, 120)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(76, 21)
+        Me.Label22.TabIndex = 24
+        Me.Label22.Text = "On Order"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label23.Location = New System.Drawing.Point(623, 89)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(82, 21)
+        Me.Label23.TabIndex = 23
+        Me.Label23.Text = "Free Stock"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label24.Location = New System.Drawing.Point(624, 52)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(79, 21)
+        Me.Label24.TabIndex = 22
+        Me.Label24.Text = "Allocated"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label25.Location = New System.Drawing.Point(624, 17)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(66, 21)
+        Me.Label25.TabIndex = 21
+        Me.Label25.Text = "In Stock"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.Label21.Location = New System.Drawing.Point(618, 284)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(82, 21)
+        Me.Label21.TabIndex = 31
+        Me.Label21.Text = "Cost Price"
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Location = New System.Drawing.Point(739, 154)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox16.TabIndex = 36
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(739, 122)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox17.TabIndex = 35
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(739, 91)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox18.TabIndex = 34
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(739, 64)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox19.TabIndex = 33
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(739, 27)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox20.TabIndex = 32
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(739, 326)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox21.TabIndex = 41
+        '
+        'TextBox22
+        '
+        Me.TextBox22.Location = New System.Drawing.Point(739, 255)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox22.TabIndex = 40
+        '
+        'TextBox23
+        '
+        Me.TextBox23.Location = New System.Drawing.Point(739, 220)
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox23.TabIndex = 39
+        '
+        'TextBox24
+        '
+        Me.TextBox24.Location = New System.Drawing.Point(739, 181)
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox24.TabIndex = 38
+        '
+        'TextBox25
+        '
+        Me.TextBox25.Location = New System.Drawing.Point(739, 286)
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox25.TabIndex = 42
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.ToolStrip1)
+        Me.Panel1.Location = New System.Drawing.Point(916, 12)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(356, 395)
+        Me.Panel1.TabIndex = 2
+        '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripButton4, Me.ToolStripButton5})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(356, 25)
+        Me.ToolStrip1.TabIndex = 0
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton1.Text = "ToolStripButton1"
+        '
+        'ToolStripButton2
+        '
+        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton2.Text = "ToolStripButton2"
+        '
+        'ToolStripButton3
+        '
+        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
+        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton3.Name = "ToolStripButton3"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton3.Text = "ToolStripButton3"
+        '
+        'ToolStripButton4
+        '
+        Me.ToolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton4.Image = CType(resources.GetObject("ToolStripButton4.Image"), System.Drawing.Image)
+        Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton4.Name = "ToolStripButton4"
+        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton4.Text = "ToolStripButton4"
+        '
+        'ToolStripButton5
+        '
+        Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton5.Text = "ToolStripButton5"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 661)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
@@ -340,6 +668,10 @@ Partial Class Form1
         Me.GroupBox1.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -372,4 +704,36 @@ Partial Class Form1
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents TextBox24 As TextBox
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents ToolStripButton3 As ToolStripButton
+    Friend WithEvents ToolStripButton4 As ToolStripButton
+    Friend WithEvents ToolStripButton5 As ToolStripButton
 End Class
