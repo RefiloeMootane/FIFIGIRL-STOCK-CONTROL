@@ -99,11 +99,13 @@ Partial Class Form1
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -510,9 +512,9 @@ Partial Class Form1
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Panel2)
-        Me.GroupBox2.Location = New System.Drawing.Point(-274, 396)
+        Me.GroupBox2.Location = New System.Drawing.Point(-274, 514)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(1574, 652)
+        Me.GroupBox2.Size = New System.Drawing.Size(1574, 534)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "GroupBox2"
@@ -724,9 +726,9 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Location = New System.Drawing.Point(272, 103)
+        Me.Panel2.Location = New System.Drawing.Point(272, 32)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1203, 106)
+        Me.Panel2.Size = New System.Drawing.Size(1203, 177)
         Me.Panel2.TabIndex = 0
         '
         'Button1
@@ -832,6 +834,7 @@ Partial Class Form1
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -911,4 +914,5 @@ Partial Class Form1
     Friend WithEvents Button7 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents BindingSource1 As BindingSource
 End Class
