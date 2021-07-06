@@ -95,6 +95,10 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -506,7 +510,7 @@ Partial Class Form1
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Panel2)
-        Me.GroupBox2.Location = New System.Drawing.Point(-274, 401)
+        Me.GroupBox2.Location = New System.Drawing.Point(-274, 396)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1574, 652)
         Me.GroupBox2.TabIndex = 1
@@ -520,14 +524,14 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.ToolStrip1)
         Me.Panel1.Location = New System.Drawing.Point(916, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(356, 395)
+        Me.Panel1.Size = New System.Drawing.Size(356, 481)
         Me.Panel1.TabIndex = 2
         '
         'RichTextBox1
         '
         Me.RichTextBox1.Location = New System.Drawing.Point(3, 31)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(350, 352)
+        Me.RichTextBox1.Size = New System.Drawing.Size(350, 435)
         Me.RichTextBox1.TabIndex = 1
         Me.RichTextBox1.Text = ""
         '
@@ -712,55 +716,103 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Panel2.Controls.Add(Me.Button8)
+        Me.Panel2.Controls.Add(Me.Button7)
+        Me.Panel2.Controls.Add(Me.Button6)
+        Me.Panel2.Controls.Add(Me.Button5)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Location = New System.Drawing.Point(272, 103)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1203, 145)
+        Me.Panel2.Size = New System.Drawing.Size(1203, 106)
         Me.Panel2.TabIndex = 0
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button1.Location = New System.Drawing.Point(26, 34)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(187, 95)
+        Me.Button1.Size = New System.Drawing.Size(101, 42)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Next"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(284, 25)
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button2.Location = New System.Drawing.Point(168, 34)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(187, 95)
+        Me.Button2.Size = New System.Drawing.Size(104, 42)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Previous"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(517, 25)
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.Location = New System.Drawing.Point(312, 34)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(187, 95)
+        Me.Button3.Size = New System.Drawing.Size(123, 42)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Save"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(777, 25)
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.Location = New System.Drawing.Point(473, 34)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(187, 95)
+        Me.Button4.Size = New System.Drawing.Size(126, 42)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "First Item"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'NotifyIcon1
         '
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button5.Location = New System.Drawing.Point(638, 34)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(122, 42)
+        Me.Button5.TabIndex = 4
+        Me.Button5.Text = "Last Item"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button6.Location = New System.Drawing.Point(776, 34)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(122, 42)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Delete"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button7.Location = New System.Drawing.Point(918, 34)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(122, 42)
+        Me.Button7.TabIndex = 6
+        Me.Button7.Text = "Reset"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button8.Location = New System.Drawing.Point(1060, 34)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(122, 42)
+        Me.Button8.TabIndex = 7
+        Me.Button8.Text = "Exit"
+        Me.Button8.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -855,4 +907,8 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents NotifyIcon1 As NotifyIcon
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button5 As Button
 End Class
