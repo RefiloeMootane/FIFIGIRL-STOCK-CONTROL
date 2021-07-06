@@ -64,7 +64,7 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        Me.GroupBox2.Location = New System.Drawing.Point(-6, 401)
+        Me.GroupBox2.Location = New System.Drawing.Point(-274, 401)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1574, 652)
         Me.GroupBox2.TabIndex = 1
