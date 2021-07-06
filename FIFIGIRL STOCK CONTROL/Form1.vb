@@ -7,7 +7,7 @@
 
     End Sub
 
-    Private Sub GroupBox3_Enter(sender As Object, e As EventArgs) Handles GroupBox3.Enter
+    Private Sub GroupBox3_Enter(sender As Object, e As EventArgs)
 
     End Sub
 
